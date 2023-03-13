@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+body {
+  font-family: Rubik;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #4f5665;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+li {
+  display: inline;
+}
+.header {
+  margin-top: 50px;
+  justify-content: space-between;
+}
+header .brand-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+header img {
+  margin-right: 10px;
+  width: 35px;
+}
+header nav li {
+  margin-right: 40px;
+}
+.auth a {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-flex;
+}
+.auth .signin {
+  margin-right: 30px;
+}
+.auth .signup {
+  justify-content: center;
+  align-items: center;
+  color: #f53855;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  width: 150px;
+  height: 45px;
+}
