@@ -185,16 +185,44 @@ a.buttonred {
   font-weight: 500;
   font-size: 35px;
   align-items: center;
+ 
+  
 }
+ .info p {
+margin-top: 0px;
+  }
+ 
+
+
 .info li {
   display: block;
+  line-height: 40px;
+  align-items: center;
+  justify-content: center;
+  
+
 }
 ul li img {
   width: 20px;
   justify-content: center;
   align-items: center;
+  padding-right: 12px;
+ 
 }
 .intro .image img {
   width: 508;
   height: 414;
+  padding-left: 184px;
+  
+}
+.intro .info h1 {
+  width: 383px;
+  height: 50px;
+  text-align: center;
+  
+  
+}
+.intro .info p {
+  text-align: left;
+  
 }
