@@ -1,8 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 body {
   font-family: Rubik;
   background: #f6f6f6;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .container {
@@ -96,7 +124,7 @@ header nav li {
 }
 
 .metrics .block::after {
-  content: "";
+  content: '';
   display: block;
   width: 1px;
   height: 125px;
@@ -156,7 +184,8 @@ a.buttonred {
   font-weight: 700;
 }
 
-.intro .info p {
+.intro .info p,
+.heading-text {
   margin-bottom: 50px;
   font-size: 16px;
   font-weight: 400;
@@ -173,56 +202,57 @@ a.buttonred {
   font-size: 50px;
 }
 
-.imagedurak {
-  width: 508px;
-  height: 414px;
-  display: flex;
-  align-items: left;
-}
-.intro .info h1 {
-  display: flex;
+.heading {
   line-height: 50px;
   font-weight: 500;
   font-size: 35px;
-  align-items: center;
- 
-  
 }
- .info p {
-margin-top: 0px;
-  }
- 
-
+.info p {
+  margin-top: 0px;
+}
 
 .info li {
   display: block;
   line-height: 40px;
   align-items: center;
   justify-content: center;
-  
-
 }
 ul li img {
   width: 20px;
   justify-content: center;
   align-items: center;
   padding-right: 12px;
- 
 }
 .intro .image img {
   width: 508;
   height: 414;
   padding-left: 184px;
-  
 }
 .intro .info h1 {
   width: 383px;
   height: 50px;
   text-align: center;
-  
-  
 }
+
 .intro .info p {
   text-align: left;
-  
+}
+
+.durak {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.durak .image {
+  width: 508px;
+  height: 414px;
+  display: flex;
+  align-items: left;
+}
+
+.plans .plans-description {
+  max-width: 555px;
+  color: #4f5665;
+  line-height: 30px;
 }
