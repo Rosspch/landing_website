@@ -5,12 +5,32 @@ body {
   background: #f6f6f6;
 }
 
+.m-auto {
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
 .p-0 {
   padding: 0;
 }
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .container {
@@ -183,11 +203,9 @@ a.buttonred {
 }
 
 .heading {
-  display: flex;
   line-height: 50px;
   font-weight: 500;
   font-size: 35px;
-  align-items: center;
 }
 .info p {
   margin-top: 0px;
@@ -231,4 +249,10 @@ ul li img {
   height: 414px;
   display: flex;
   align-items: left;
+}
+
+.plans .plans-description {
+  max-width: 555px;
+  color: #4f5665;
+  line-height: 30px;
 }
