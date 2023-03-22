@@ -5,6 +5,18 @@ body {
   background: #f6f6f6;
 }
 
+.space-between {
+  justify-content: space-between !important;
+}
+
+.dir-column {
+  flex-direction: column;
+}
+
+.d-block{
+  display: block;
+}
+
 .m-auto {
   margin: 0 auto;
 }
@@ -12,9 +24,11 @@ body {
 .d-flex {
   display: flex;
 }
+
 .d-block {
   display: block;
 }
+
 .align-center {
   align-items: center;
 }
@@ -25,6 +39,10 @@ body {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 20px
 }
 
 .w-100 {
@@ -149,19 +167,19 @@ header nav li {
   margin-right: 20px;
 }
 
-.metrics .block .centered-square > div {
+.metrics .block .centered-square>div {
   display: flex;
   flex-direction: column;
   height: 55px;
   justify-content: space-between;
 }
 
-.metrics .block .centered-square > div .amount {
+.metrics .block .centered-square>div .amount {
   font-weight: 700;
   font-size: 25px;
 }
 
-.metrics .block .centered-square > div .text {
+.metrics .block .centered-square>div .text {
   font-weight: 400;
   font-size: 20px;
   color: #4f5665;
@@ -209,6 +227,7 @@ a.buttonred {
   font-weight: 500;
   font-size: 35px;
 }
+
 .info p {
   margin-top: 0px;
 }
@@ -219,17 +238,20 @@ a.buttonred {
   align-items: center;
   justify-content: center;
 }
+
 ul li img {
   width: 20px;
   justify-content: center;
   align-items: center;
   padding-right: 12px;
 }
+
 .intro .image img {
   width: 508;
   height: 414;
   padding-left: 184px;
 }
+
 .intro .info h1 {
   width: 383px;
   height: 50px;
@@ -264,7 +286,9 @@ ul.vertical li {
   padding-right: 15px;
   justify-content: center;
 }
+
 .buttonredr {
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -272,12 +296,12 @@ ul.vertical li {
   border-radius: 50px;
   width: 250px;
   height: 60px;
-  background-color: ;
   font-size: 16px;
   font-style: normal;
   box-shadow: 2px 2px 4px rgba(245, 56, 56, 0.35);
 }
-.buttonredy {
+
+.box:hover .buttonredr {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -286,17 +310,16 @@ ul.vertical li {
   width: 250px;
   height: 60px;
   background-color: #f53838;
-  font-size: ;
   font-style: normal;
+  color: white !important;
   box-shadow: 2px 2px 4px rgba(245, 56, 56, 0.35);
   color: #eeeff2;
 }
 
 .box {
   width: 330px;
-  height: 760px;
   border: 2px solid;
-  border-color: #f53838;
+  border-color: #DDDDDD;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -309,18 +332,26 @@ ul.vertical li {
   margin-top: 60px;
 }
 
+.box:hover {
+  border-color: #f53855;
+}
+
+
+
 .d-flexcentered {
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
 }
+
 .box .buttonredr {
   margin-top: auto;
   color: #f53838;
 }
+
 .box .heading {
   margin-top: auto;
 }
+
 .font18 {
   font-size: 18px;
   line-height: 30px;
@@ -328,12 +359,14 @@ ul.vertical li {
   font-weight: 500;
   margin-top: 30px;
 }
+
 .font25 {
   font-size: 25px;
   line-height: 30px;
-  align-items: center;
+  text-align: center;
   font-weight: 500;
 }
+
 .font35 {
   font-size: 35px;
   line-height: 143%;
@@ -344,6 +377,7 @@ ul.vertical li {
   margin-top: 150px;
   font-style: normal;
 }
+
 .font16 {
   font-size: 16px;
   line-height: 30px;
@@ -353,17 +387,20 @@ ul.vertical li {
   text-align: center;
   color: #4f5665;
 }
+
 .mapvrap {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 80px;
 }
+
 .sponsors {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .font35nomargin {
   font-size: 35px;
   line-height: 143%;
@@ -377,22 +414,51 @@ ul.vertical li {
 
 .vertical {
   font-size: 14px;
+  padding: 0;
 }
+
 .c-red {
   color: #f53838;
 }
+
 .buttonredy h5 {
   font-size: 16px;
 }
+
 .buttonredr h5 {
   font-size: 16px;
 }
+
 .containery {
   display: flex;
   flex-direction: row;
   align-items: center;
   border: 1px solid red;
-  border-radius: 10px ;
+  border-radius: 10px;
   width: 400px;
-  height: 230px;
+  
+}
+.box2 {
+  width:
+  border: 2px solid;
+  border-color: #DDDDDD;
+  border-radius: 10px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  line-height: 20px;
+  box-sizing: border-box;
+ 
+}
+.content {display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+
+.io {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
