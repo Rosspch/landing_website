@@ -263,7 +263,6 @@ ul.vertical li {
   display: block;
   padding-right: 15px;
   justify-content: center;
-  
 }
 .buttonredr {
   justify-content: center;
@@ -282,14 +281,14 @@ ul.vertical li {
   justify-content: center;
   align-items: center;
   display: flex;
-  border: 1px solid #F53838;
+  border: 1px solid #f53838;
   border-radius: 50px;
   width: 250px;
   height: 60px;
-  background-color: #F53838;
+  background-color: #f53838;
   font-size: ;
   font-style: normal;
-  box-shadow: 2px 2px 4px rgba(245, 56, 56, 0.35); 
+  box-shadow: 2px 2px 4px rgba(245, 56, 56, 0.35);
   color: #eeeff2;
 }
 
@@ -308,7 +307,6 @@ ul.vertical li {
   padding-top: 70px;
   padding-bottom: 20px;
   margin-top: 60px;
-  
 }
 
 .d-flexcentered {
@@ -318,8 +316,7 @@ ul.vertical li {
 }
 .box .buttonredr {
   margin-top: auto;
-   color: #F53838;
- 
+  color: #f53838;
 }
 .box .heading {
   margin-top: auto;
@@ -355,14 +352,12 @@ ul.vertical li {
   justify-content: center;
   text-align: center;
   color: #4f5665;
- 
 }
-.mapvrap{
+.mapvrap {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-
 }
 .sponsors {
   display: flex;
@@ -377,18 +372,27 @@ ul.vertical li {
   display: flex;
   justify-content: center;
   margin-bottom: -40px;
-font-style: normal;
-  }
+  font-style: normal;
+}
 
-.vertical{
+.vertical {
   font-size: 14px;
 }
-.c-red{
-  color: #F53838;
-
-}.buttonredy h5{
+.c-red {
+  color: #f53838;
+}
+.buttonredy h5 {
   font-size: 16px;
 }
-.buttonredr h5{
+.buttonredr h5 {
   font-size: 16px;
+}
+.containery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 10px ;
+  width: 400px;
+  height: 230px;
 }
