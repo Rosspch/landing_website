@@ -292,6 +292,7 @@ ul.vertical li {
   box-sizing: border-box;
   padding-top: 70px;
   padding-bottom: 20px;
+  margin-top: 60px;
 }
 
 .d-flexcentered {
