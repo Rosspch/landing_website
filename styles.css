@@ -261,6 +261,9 @@ ul li img {
 
 ul.vertical li {
   display: block;
+  padding-right: 15px;
+  justify-content: center;
+  
 }
 .buttonredr {
   justify-content: center;
@@ -304,6 +307,7 @@ ul.vertical li {
   padding-top: 70px;
   padding-bottom: 20px;
   margin-top: 60px;
+  
 }
 
 .d-flexcentered {
@@ -338,6 +342,7 @@ ul.vertical li {
   display: flex;
   justify-content: center;
   margin-top: 150px;
+  font-style: normal;
 }
 .font16 {
   font-size: 16px;
@@ -346,7 +351,7 @@ ul.vertical li {
   display: flex;
   justify-content: center;
   text-align: center;
-  
+ 
 }
 .mapvrap{
   display: flex;
@@ -367,6 +372,7 @@ ul.vertical li {
   font-weight: 500;
   display: flex;
   justify-content: center;
-  margin-bottom: 0px;
-
+  margin-bottom: -40px;
+font-style: normal;
   }
+
