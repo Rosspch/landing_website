@@ -287,9 +287,10 @@ ul.vertical li {
   width: 250px;
   height: 60px;
   background-color: #F53838;
-  font-size: 16px;
+  font-size: ;
   font-style: normal;
-  box-shadow: 2px 2px 4px rgba(245, 56, 56, 0.35); !important;
+  box-shadow: 2px 2px 4px rgba(245, 56, 56, 0.35); 
+  color: #eeeff2;
 }
 
 .box {
@@ -317,6 +318,8 @@ ul.vertical li {
 }
 .box .buttonredr {
   margin-top: auto;
+   color: #F53838;
+ 
 }
 .box .heading {
   margin-top: auto;
@@ -351,6 +354,7 @@ ul.vertical li {
   display: flex;
   justify-content: center;
   text-align: center;
+  color: #4f5665;
  
 }
 .mapvrap{
@@ -378,4 +382,13 @@ font-style: normal;
 
 .vertical{
   font-size: 14px;
+}
+.c-red{
+  color: #F53838;
+
+}.buttonredy h5{
+  font-size: 16px;
+}
+.buttonredr h5{
+  font-size: 16px;
 }
