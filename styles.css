@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.round-img,
+.round-img>img {
+  width: 50px;
+  border-radius: 50px;
+}
+
 body {
   font-family: Rubik;
   background: #f6f6f6;
