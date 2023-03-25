@@ -372,7 +372,8 @@ ul.vertical li {
 
 .d-flexcentered {
   display: flex;
-  justify-content: space-between;
+  max-width: 1440px;
+  /* margin: 0 auto; */
 }
 
 .box .buttonredr {
@@ -488,4 +489,53 @@ ul.vertical li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.alignflex {
+  align-items: center;
+  display: flex;
+}
+
+.footertext {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F5665;
+}
+
+.containerg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 150px;
+}
+
+.footerall {
+  display: flex;
+  width: 1200px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.textclown {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.clownforce {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: #ffffff;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #4f5665;
+  width: 1140px;
+
+
+}
+
+.textwhite {
+  color: #eeeff2;
 }
