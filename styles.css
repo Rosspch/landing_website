@@ -281,7 +281,7 @@ ul li img {
 .intro .image img {
   width: 508;
   height: 414;
-  padding-left: 184px;
+  
 }
 
 .intro .info h1 {
@@ -372,7 +372,8 @@ ul.vertical li {
 
 .d-flexcentered {
   display: flex;
-  justify-content: space-between;
+  max-width: 1440px;
+  /* margin: 0 auto; */
 }
 
 .box .buttonredr {
@@ -488,4 +489,67 @@ ul.vertical li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.alignflex {
+  align-items: center;
+  display: flex;
+}
+
+.footertext {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F5665;
+}
+
+.containerg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 160px;
+  
+  
+}
+
+.footerall {
+  display: flex;
+  width: 1200px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 150px;
+  background-color: #F8F8F8;
+}
+
+.textclown {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.clownforce {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: #ffffff;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 1140px;
+  margin-left: 150px;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.textwhite {
+  color: #eeeff2;
+}
+.containerg img {
+  background-color: #f53838;
+  border-radius: 10px;
+}
+
+.containerg>a{
+  background-color: #f53838;
 }
