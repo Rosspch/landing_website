@@ -281,7 +281,7 @@ ul li img {
 .intro .image img {
   width: 508;
   height: 414;
-  padding-left: 184px;
+  
 }
 
 .intro .info h1 {
@@ -505,8 +505,10 @@ ul.vertical li {
 .containerg {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  margin-left: 150px;
+  justify-content: space-between;
+  width: 160px;
+  
+  
 }
 
 .footerall {
@@ -515,6 +517,8 @@ ul.vertical li {
   align-items: flex-start;
   justify-content: center;
   margin-top: 60px;
+  margin-left: 150px;
+  background-color: #F8F8F8;
 }
 
 .textclown {
@@ -530,12 +534,22 @@ ul.vertical li {
   border: #ffffff;
   margin-top: 50px;
   border-radius: 10px;
-  background-color: #4f5665;
+  background-color: #ffffff;
   width: 1140px;
+  margin-left: 150px;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.06);
 
 
 }
 
 .textwhite {
   color: #eeeff2;
+}
+.containerg img {
+  background-color: #f53838;
+  border-radius: 10px;
+}
+
+.containerg>a{
+  background-color: #f53838;
 }
